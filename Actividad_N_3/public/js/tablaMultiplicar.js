@@ -14,17 +14,12 @@
 
 //5 x 12 = 60
 
+// Objetivo: Reforzar el uso de bucles for y operaciones matemáticas.
 
 //Solicitar el numero
 let numero = prompt('Escribe un número del 1 al 12: ');
 
-
-//fucuncion if para verificar que el número este dentro del rango
-if ((numero >= 0 && numero <= 12)){
-    // blucle for para recorrer los numeros del 1 al 12
-    for (let i = 1; i <= 12; i++) {
-        console.log(numero + ' x ' + i + ' = ' + (numero * i));
-    }
-} else {
-    console.log('Escribe número del 1 al 12');
+// Blucle for inicializac1ión y mostrar tablas de multiplicar
+for (let i = 1; i <= 12; i++) {
+    console.log(numero + "x" + i + "=" + (numero*i))
 }
