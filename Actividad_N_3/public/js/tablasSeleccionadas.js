@@ -13,7 +13,7 @@
 
 
 //Solicitamos si el usuario quiere ver la tabla par o impar
-let solicitar = prompt("¿Quieres ver la tabla de pares o impares?:")
+const solicitar = prompt("¿Quieres ver la tabla de pares o impares?:")
 
 //fucuncion if para verificar si son pares o impares
 if (solicitar === "pares") {
